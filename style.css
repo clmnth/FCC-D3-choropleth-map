@@ -1,0 +1,40 @@
+html {
+  font-family: poppins;
+  text-align: center;
+}
+
+h2 {
+  padding-top: 1rem;
+  margin: 1rem 0 0 2.5rem;
+  font-weight: bolder;
+  /*   text-align: center; */
+  white-space: nowrap;
+}
+
+h3 {
+  margin: 0 0 -1rem 3.5rem;
+  font-weight: lighter;
+  /*   text-align: center; */
+  white-space: nowrap;
+}
+
+#tooltip {
+  color: black;
+  background-color: white;
+  position: absolute;
+  border-radius: 5px;
+  padding: 10px;
+  opacity: 0;
+  pointer-events: none;
+  font-size: 12px;
+}
+
+.labelText {
+  font-size: 0.65rem;
+}
+
+#source {
+  align-self: flex-end;
+  margin-top: 1rem;
+  font-size: 0.8rem;
+}
